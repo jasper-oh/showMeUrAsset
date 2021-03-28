@@ -23,3 +23,21 @@
 -- need to explain --
 
 <hr></hr>
+
+### Version 
+
+2021 . 03 . 28
+
+--> 다음 레이아웃으로 데이터 전달 , Initial Commit 
+
+### 🎯 Task 🎯
+
+1. Login Page --> Google login 
+2. Data to PIE Graph
+3. Stock Search API 
+
+
+
+
+
+

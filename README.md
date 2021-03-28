@@ -2,7 +2,7 @@
 
 📈 Simple Asset Viewer with android Application 📈
 
-### WITH
+### 🏃 WITH 🏃
 
 👨‍💻 [이해환](https://github.com/HaeHwan) </br>
 👨‍💻 [오영준](https://github.com/jasper-oh)

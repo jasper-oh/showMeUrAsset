@@ -45,7 +45,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
                     val intent = Intent(this@MainActivity, ActivityAsset::class.java)
                     val bundle = Bundle()
                     bundle.putSerializable("list",assetLine)
+
+                    /*
+                     << TODO >>
+                     toss the list to Another layout ( Pie Graph )
+                    * list[0] = assetName1
+                    * list[2] = assetCount1
+                    * list[3] = assetPrice1
+                    * list[4] = spinnerCurrency1
+                    *
+                    * P1) all the data type is text
+                    *       I believe that the data should be change to Integer(Float Double Long .. not integer)
+                    *       such as the assetCount1 & assetPrice1
+                    *       - therefore we can put the Sum data automatically.
+                    *       - showing data would be on String but on the backend; for calculation.
+                    *           they are need to change the type to integer.
+                    * */
+
                     intent.putExtras(bundle)
+
+
                     startActivity(intent)
                 }
             }
@@ -91,8 +110,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
             assetLine.add(asset)
             Log.d("fuck","${assetLine[0]}")
-
-
         }
 
         if(assetLine.size==0){

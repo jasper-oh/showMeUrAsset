@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        /* Make a list to contain the Every element in Ui system */
+
         layoutList = findViewById(R.id.layout_list)
         buttonAdd = findViewById(R.id.button_plus)
         buttonCreate = findViewById(R.id.button_create)
@@ -48,13 +50,13 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
                     /*
                      << TODO >>
-                     toss the list to Another layout ( Pie Graph )
+                       P1. toss the list to Another layout ( Pie Graph )
                     * list[0] = assetName1
                     * list[2] = assetCount1
                     * list[3] = assetPrice1
                     * list[4] = spinnerCurrency1
                     *
-                    * P1) all the data type is text
+                    * P2) all the data type is text
                     *       I believe that the data should be change to Integer(Float Double Long .. not integer)
                     *       such as the assetCount1 & assetPrice1
                     *       - therefore we can put the Sum data automatically.
